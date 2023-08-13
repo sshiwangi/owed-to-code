@@ -22,23 +22,23 @@ function Signin() {
 
   return (
     <div className="signin-contianer">
-      <h1>Welcome Back</h1>
-      <h2>Welcome back! Please enter your details</h2>
+    
+      <h1>Welcome back!</h1>
+       <p>Please enter your details</p>
 
-      <button>Signin with Google</button>
+      <button class="button-sign-in">Signin with Google</button>
       <p>or</p>
       <form onSubmit={handleSignin}>
         <label htmlFor="email">Email</label>
-        <input type="email" name="email" id="email" />
+        <input class="input-signin" type="email" name="email" id="email" />
 
         <label htmlFor="password">Password</label>
-        <input type="password" name="password" id="password" />
+        <input class="input-signin" type="password" name="password" id="password" />
       <p>Forgot password</p>
-      <button type="submit">Sign in</button>
+      <button class="button-sign-in" type="submit">Sign in</button>
       </form>
       <p>Don't have an account <Link to="/signup">Sign up</Link></p>
     </div>
   )
 }
-
 export default Signin

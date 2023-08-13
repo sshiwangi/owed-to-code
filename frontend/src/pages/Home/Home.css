@@ -36,6 +36,7 @@ p{
     font-size:20px;
     color: black;
 
+
 }
 .custom-div-1 a {
     color: #3a3442;
@@ -79,20 +80,28 @@ p{
 }
 .mood-circle-1{
     background-image: url(/src/Images/happy.jpg);
-  background-size: 60px 60px;
+  background-size: 50px 50px;
     background-repeat: no-repeat;
 
 }
 .mood-circle-2{
-    background-image: url(/src/Images/sad.png);
+    background-image: url(/src/Images/happy.jpg);
     background-size: 50px 50px;
     background-repeat: no-repeat;
     
 }
+
+.mood-circle-3 {
+    background-image: url(/src/Images/happy.jpg);
+    background-size: 50px 50px;
+    background-repeat: no-repeat;
+
+
 p.header-desc {
     font-size: 20px;
 }
 
 h2,h3 {
     margin: 0;
+
 }

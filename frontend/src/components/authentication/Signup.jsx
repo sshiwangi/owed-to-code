@@ -27,19 +27,20 @@ function Signup() {
       <form onSubmit={handleSignup}>
 
         <label htmlFor="name">Name</label>
-        <input type="text" name="name" id="name" />
+        <input class="input-signup" type="text" name="name" id="name" />
 
         <label htmlFor="email">Email</label>
-        <input type="email" name="email" id="email" />
+        <input class="input-signup" type="email" name="email" id="email" />
 
         <label htmlFor="password">Password</label>
-        <input type="password" name="password" id="password" />
-      <button type="submit">Create account</button>
+        <input class="input-signup" type="password" name="password" id="password" />
+      <button class="btn-signup" type="submit">Create account</button>
       </form>
-      <button>Sign up with Google</button>
+       <p>or</p>
+      <div className="btn">
+      <button class="btn-sign-up">Sign up with Google</button></div>
       <p>Already have an account? <Link to="/signin">Signin</Link></p>
     </div>
   )
 }
-
 export default Signup
