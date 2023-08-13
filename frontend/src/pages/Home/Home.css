@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 20px;
+    padding: 3rem;
 }
 
 .header {
@@ -34,21 +34,36 @@ p{
     border-radius: 10px;
     margin-right: 10px;
     font-size:20px;
+    color: black;
 
 }
-.custom-div-1{
-    background-color: #f2d9c2;
+.custom-div-1 a {
+    color: #3a3442;
+}
+.custom-div-1 {
+    background-color: #B7E0D8;
+    color: #3a3442;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 .custom-div-2{
-    background-color: #d1d2f6;
-    background-image: url(/src/Images/Doctor-1.png);
-    background-size: 250px 250px;
-    background-repeat: no-repeat;
+    background-color: #EEBC75;
+    color: #3a3442;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 
 }
 .custom-div-3{
-    background-color: #000000;
-    color:white;
+    background-color: #DB7671;
+    color: #3a3442;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 .moods{
     align-items:center;
@@ -73,4 +88,11 @@ p{
     background-size: 50px 50px;
     background-repeat: no-repeat;
     
+}
+p.header-desc {
+    font-size: 20px;
+}
+
+h2,h3 {
+    margin: 0;
 }
