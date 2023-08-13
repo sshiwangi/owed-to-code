@@ -70,12 +70,12 @@ p{
     justify-content: center;
     display: flex;
 }
-.mood-circle-1,.mood-circle-2,.mood-circle-3{
+.mood-circle-1,.mood-circle-2,.mood-circle-3 {
        width:50px;
        height:50px;
        border-radius:50%;
        background-color: white;
-       margin-right:10px
+       margin-right:10px;
 }
 .mood-circle-1{
     background-image: url(/src/Images/happy.jpg);
