@@ -19,8 +19,7 @@ const Home = () => {
           <p>There is a little fatigue, but in general i feel good.</p>
           <div className="moods">
             <div className="mood-circle-1"></div>
-            <div className="mood-circle-2"></div>
-            <div className="mood-circle-3"></div>
+            .mood-circle-2
           </div>
         </div>
         <div className="custom-div-2">
