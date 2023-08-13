@@ -2,47 +2,7 @@
 
 A go to friend for every ADHD(Attention deficit hyperactivity disorder) patient :)
 
-.
 
-<!-- PROJECT SHIELDS -->
-<!--
-*** I'm using markdown "reference style" links for readability.
-*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
-*** See the bottom of this document for the declaration of the reference variables
-*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
-*** https://www.markdownguide.org/basic-syntax/#reference-style-links
--->
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
-
-
-
-<!-- PROJECT LOGO -->
-<br />
-<div align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
-  </a>
-
-  <h3 align="center">Best-README-Template</h3>
-
-  <p align="center">
-    An awesome README template to jumpstart your projects!
-    <br />
-    <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
-    ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Request Feature</a>
-  </p>
-</div>
 
 
 
@@ -58,18 +18,17 @@ A go to friend for every ADHD(Attention deficit hyperactivity disorder) patient 
     </li>
     <li>
       <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
+    
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
+   
+       
+    
+    
     <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
-  </ol>
+    
 </details>
 
 
@@ -77,18 +36,43 @@ A go to friend for every ADHD(Attention deficit hyperactivity disorder) patient 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+ Our project basically focuses on
+ 
+ 1. Create and Organize Tasks:
+Users will have access to a comprehensive task management platform that empowers them to efficiently manage their responsibilities. Upon logging in, users can easily create new tasks by entering task titles, descriptions, due dates, and priority levels. The intuitive interface allows them to categorize tasks into projects or thematic groups for better organization.
 
-There are many great README templates available on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
+Tasks are presented in a user-friendly dashboard, showcasing due dates and priorities at a glance. Users can reorder tasks, mark them as complete, and archive them as needed. The system provides a seamless experience for task creation, tracking, and management, ensuring that users can stay on top of their commitments.
 
-Here's why:
-* Your time should be focused on creating something amazing. A project that solves a problem and helps others
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
-* You should implement DRY principles to the rest of your life :smile:
+2. Send Reminders:
+The system ensures that users never miss a deadline or forget an important task by sending timely reminders. Users can set their preferred reminder methods, such as push notifications to their mobile devices or email alerts. The reminders can be customized based on users' preferences, allowing them to choose when and how often they receive notifications.
 
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have contributed to expanding this template!
+To prevent task overload, the system employs smart reminders that consider the user's workload and availability. For instance, users might receive reminders for high-priority tasks more frequently than lower-priority ones. The goal is to strike a balance between helpful reminders and avoiding notification fatigue.
 
-Use the `BLANK_README.md` to get started.
+For future use we will be implementing-
+
+ GPT-3-Powered Personal Assistant for Summarization:
+The personal assistant feature, powered by OpenAI's GPT-3, adds an extra layer of productivity and focus enhancement. Users can leverage this assistant to extract concise and relevant summaries from lengthy articles, documents, or study materials.
+
+Here's how the summarization process works:
+
+Content Submission: Users can upload or paste the content they want summarized into the system. This can include research papers, articles, or even personal notes.
+
+Summarization Request: The user instructs the personal assistant, specifying the desired level of summarization (brief, moderate, comprehensive) and any specific focus areas.
+
+Summarization Output: The GPT-3-powered personal assistant processes the input and generates a summary that distills the essential information, key points, and main arguments of the content. The summary is written in a coherent and easily understandable manner.
+
+Focus and Retention: Users can link the generated summary to relevant tasks or projects within the task management system. This integration ensures that users revisit and retain critical information even if they struggle with prolonged focus.
+
+The ultimate goal of this system is to empower users to efficiently manage their tasks, receive timely reminders, and enhance their understanding of important content through AI-generated summaries. By integrating these functionalities, the system aims to boost productivity, time management, and knowledge retention for users who may find it challenging to maintain prolonged focus.
+
+
+
+
+
+
+
+
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
