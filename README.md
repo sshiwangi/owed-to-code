@@ -142,9 +142,16 @@ npm start
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+Once you have installed the dependencies, you can run the app using the following command:
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+```bash
+npm start
+```
+This will start the development server and open the app in your default web browser. You can access the app at http://localhost:3000.
+
+
+
+
 
 
 
