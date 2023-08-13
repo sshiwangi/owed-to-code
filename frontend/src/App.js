@@ -4,13 +4,14 @@ import Signin from './components/authentication/Signin';
 import Signup from './components/authentication/Signup';
 import Home from './pages/Home/Home'
 import Task from './pages/Task/Task';
+import Navbar from './components/Navbar/Navbar';
 
 function App() {
   return (
     <>
     
       <BrowserRouter>
-        
+        <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/signin" element={<Signin />} />
