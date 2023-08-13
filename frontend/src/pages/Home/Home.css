@@ -11,13 +11,16 @@
     width: 100%;
     margin-bottom: 20px;
 }
+.home-img{
+    width:150px;
+    margin-left:80px;
+}
 
 .info {
     flex: 1;
     padding: 10px;
     margin-right: 10px;
 }
-
 .div-container {
     display: flex;
     justify-content: space-between;
@@ -26,7 +29,6 @@
 p{
     text-align: center;
 }
-
 .custom-div-1,.custom-div-2,.custom-div-3 {
     width: calc(33.33% - 18px);
     height: 260px;
@@ -35,8 +37,6 @@ p{
     margin-right: 10px;
     font-size:20px;
     color: black;
-
-
 }
 .custom-div-1 a {
     color: #3a3442;
@@ -101,7 +101,7 @@ p.header-desc {
     font-size: 20px;
 }
 
-h2,h3 {
+h4 {
     margin: 0;
-
+    text-align: center;
 }
