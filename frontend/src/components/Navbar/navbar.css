@@ -1,0 +1,44 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    font-weight: 500;
+}
+.nav-menu-container {
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+}
+.nav-menu-items {
+    display: flex;
+    margin-left: 1.8rem;
+    
+    width: 70%;
+    justify-content: space-between;
+}
+section.navbar {
+    padding: 1.5rem;
+}
+span.hugs {
+    color: #DB7671;
+}
+strong {
+    font-size: 22px;
+}
+span.hopes {
+    color: #EEBC75;
+}
+.authentication {
+    background-color: #3A3442;
+    color: White;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.7rem 1.5rem;
+    border-radius: 1.5rem;
+}
+
+a {
+    color:white;
+    text-decoration: none;
+}
