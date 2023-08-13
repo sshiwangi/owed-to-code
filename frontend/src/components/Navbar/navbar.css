@@ -18,6 +18,7 @@ nav {
 }
 section.navbar {
     padding: 1.5rem 3rem;
+    box-shadow: 4px 2px 23px rgba(0, 0, 0, 0.2);
 }
 span.hugs {
     color: #DB7671;
