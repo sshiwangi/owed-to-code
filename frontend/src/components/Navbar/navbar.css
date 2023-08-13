@@ -38,7 +38,7 @@ span.hopes {
     border-radius: 1.5rem;
 }
 
-a {
+.authentication a {
     color:white;
     text-decoration: none;
 }
