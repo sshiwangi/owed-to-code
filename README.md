@@ -104,20 +104,37 @@ The ultimate goal of this system is to empower users to efficiently manage their
 
 _Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-   ```sh
-   git clone https://github.com/your_username_/Project-Name.git
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
 
+1. Clone the repo
+```bash
+git clone https://github.com/your_username_/owed-to-code.git
+   ```
+2. Move to the project directory:
+```bash
+cd charicon-frontend
+```
+3. Frontend Installation
+```bash
+cd frontend
+npm install
+```
+4. Backend Installation
+```bash
+cd backend
+npm install
+```
+5.Running the Project
+
+  1.1 Frontend
+```bash
+cd frontend
+npm start
+```
+   1.2 Backend
+   ```bash
+cd backend
+npm start
+```
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
