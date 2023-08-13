@@ -37,7 +37,9 @@ span.hopes {
     padding: 0.7rem 1.5rem;
     border-radius: 1.5rem;
 }
-
+a {
+    text-decoration: none;
+}
 .authentication a {
     color:white;
     text-decoration: none;
