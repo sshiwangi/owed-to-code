@@ -11,13 +11,16 @@
     width: 100%;
     margin-bottom: 20px;
 }
+.home-img{
+    width:150px;
+    margin-left:80px;
+}
 
 .info {
     flex: 1;
     padding: 10px;
     margin-right: 10px;
 }
-
 .div-container {
     display: flex;
     justify-content: space-between;
@@ -26,7 +29,6 @@
 p{
     text-align: center;
 }
-
 .custom-div-1,.custom-div-2,.custom-div-3 {
     width: calc(33.33% - 18px);
     height: 260px;
@@ -35,8 +37,6 @@ p{
     margin-right: 10px;
     font-size:20px;
     color: black;
-
-
 }
 .custom-div-1 a {
     color: #3a3442;
@@ -71,12 +71,12 @@ p{
     justify-content: center;
     display: flex;
 }
-.mood-circle-1,.mood-circle-2,.mood-circle-3{
+.mood-circle-1,.mood-circle-2,.mood-circle-3 {
        width:50px;
        height:50px;
        border-radius:50%;
        background-color: white;
-       margin-right:10px
+       margin-right:10px;
 }
 .mood-circle-1{
     background-image: url(/src/Images/happy.jpg);
@@ -95,92 +95,13 @@ p{
     background-image: url(/src/Images/happy.jpg);
     background-size: 50px 50px;
     background-repeat: no-repeat;
-}
 
+}
 p.header-desc {
     font-size: 20px;
 }
 
-h2,h3 {
+h4 {
     margin: 0;
-
-}
-/* Home.css */
-
-/* Home.css */
-
-/* .app {
     text-align: center;
-    padding: 20px;
 }
-
-.header {
-    margin-bottom: 40px;
-}
-
-.info {
-    margin: 10px;
-}
-
-.header-desc {
-    font-size: 16px;
-    max-width: 600px;
-    margin: 0 auto;
-    font-weight: 500;
-  
-}
-
-.div-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
-}
-
-.custom-div-1,
-.custom-div-2,
-.custom-div-3 {
-    flex: 1;
-    min-width: 300px;
-    max-width: 400px;
-    padding: 20px;
-    text-align: left;
-    background-color: white;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-.custom-div-1 .img-container img,
-.custom-div-2 .img-container img,
-.custom-div-3 .img-container img {
-    max-width: 60%;
- 
-    height: auto;
-    margin: 0 auto 10px;
-    display: block;
-}
-
-.home-img {
-    max-width: 100%;
-    height: auto;
-}
-
-.custom-div-1 h2,
-.custom-div-2 h2,
-.custom-div-3 h2,
-.custom-div-1 h3,
-.custom-div-2 h3,
-.custom-div-3 h3 {
-    font-weight: 500;
-  
-}
-
-@media (max-width: 768px) {
-
-    .custom-div-1,
-    .custom-div-2,
-    .custom-div-3 {
-        flex: 100%;
-        max-width: 100%;
-    }
-} */

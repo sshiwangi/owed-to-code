@@ -3,6 +3,7 @@ nav {
     justify-content: space-between;
     font-size: 20px;
     font-weight: 500;
+    align-items: center;
 }
 .nav-menu-container {
     display: flex;
@@ -18,6 +19,7 @@ nav {
 }
 section.navbar {
     padding: 1.5rem 3rem;
+    box-shadow: 4px 2px 23px rgba(0, 0, 0, 0.2);
 }
 span.hugs {
     color: #DB7671;
@@ -37,8 +39,10 @@ span.hopes {
     padding: 0.7rem 1.5rem;
     border-radius: 1.5rem;
 }
-
 a {
+    text-decoration: none;
+}
+.authentication a {
     color:white;
     text-decoration: none;
 }
