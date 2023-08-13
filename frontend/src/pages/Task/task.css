@@ -1,0 +1,33 @@
+.sidebar {
+    background-color: #3A3442;
+    color: white;
+    width: 25%;
+    padding: 1.5rem;
+}
+.task-list-container {
+    display: flex;
+    display: flex;
+    height: 100vh;
+
+}
+.main-container {
+    width: 75%;
+}
+.project-container {
+    background-color: #EEBC75;
+    color: black;
+    font-weight: 600;
+    padding: 1rem;
+    border-radius: 1rem;
+    display: flex;
+    font-size: 20px;
+    /* justify-content: center; */
+    align-items: center;
+}
+.main-container {
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
